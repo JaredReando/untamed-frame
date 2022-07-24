@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#preview-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  border: 1px solid red;
+}
+
+.photo-matte-overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 20px solid rgba(255, 255, 255, 0.75);
+}
